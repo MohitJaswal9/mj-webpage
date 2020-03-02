@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MJ</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+<style>
+body{
+background:#000;
+}
+.heading{
+text-align:center;
+margin-top:200px;
+color:#FFF;
+}
+</style>
+
+<script>
+function blink_heading(){
+$(".heading").fadeOut(600);
+$(".heading").fadeIn(600);
+}
+setInterval(blink_heading,1000);
+
+</script>
+</head>
+
+<body>
+<h1 class="heading">WELOME TO THE WEBPAGE OF MJ</h1>
+</body>
+</html>
